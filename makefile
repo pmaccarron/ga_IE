@@ -11,5 +11,5 @@ install:
 	@ perl     -v > /dev/null || \
 	        (echo "Perl is required. Try to install dictionary manually. " && false)
 	mkdir -p $(HPATH)
-	cp pt_PT.aff $(HPATH)
-	cp pt_PT.dic $(HPATH)
+	cp ga_IE.aff $(HPATH)
+	cp ga_IE.dic $(HPATH)
